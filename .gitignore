@@ -1,0 +1,20 @@
+# git ignore file for repo
+
+# Repota Dependency directories
+node_modules/
+www/
+platforms/
+plugins/
+
+# Horton Server
+*.exe
+*.exe~
+GIT_REPO_ID
+*.save
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/
+.ebignore
+
+# JetBrains IDEs
+.idea/
